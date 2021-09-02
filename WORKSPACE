@@ -16,6 +16,8 @@ load("@rules_jvm_external//:defs.bzl", "maven_install")
 maven_install(
     artifacts = [
         "org.antlr:antlr4-runtime:4.9.2",
+        'com.github.jsqlparser:jsqlparser:3.2',
+        "com.google.guava:guava:30.1.1-jre",
         "org.junit.jupiter:junit-jupiter-api:5.7.0",
         "org.junit.jupiter:junit-jupiter-engine:5.7.0",
     ],
@@ -25,3 +27,4 @@ maven_install(
         "https://jcenter.bintray.com/",
     ],
 )
+

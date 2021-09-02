@@ -1,0 +1,5 @@
+/.ijwb/
+/bazel-bin/
+/bazel-graphoenix-bazel/
+/bazel-out/
+/bazel-testlogs/
